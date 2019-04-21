@@ -84,10 +84,10 @@ select * from student
 alter table student 
         add C number
 
-update student set m=90,p=90,c=90 where id='VLT2341'
-update student set m=10,p=50,c=90 where id='VLT2342'
-update student set m=80,p=80,c=80 where id='VLT2343'
-update student set m=30,p=90,c=90 where id='VLT2344'
+update student set m=90,p=90,c=90 where id='245341'
+update student set m=10,p=50,c=90 where id='212342'
+update student set m=80,p=80,c=80 where id='234543'
+update student set m=30,p=90,c=90 where id='27u344'
 
 select * from student
         order by (m+p+c)/3 desc, m desc, p desc
